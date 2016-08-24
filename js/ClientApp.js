@@ -4,7 +4,6 @@ var MyTitle = require('./MyTitle')
 
 var div = React.DOM.div
 
-
 var MyFirstComponent = (
   div(null,
     React.createElement(MyTitle, {title: 'Use props everywhere'}),
